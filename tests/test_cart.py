@@ -5,7 +5,7 @@ def test_total():
     assert total([1, 2, 3]) == 6
 
 
-def test_total_empty():
+def test_total_of_an_empty_cart():
     assert total([]) == 0
 
 
