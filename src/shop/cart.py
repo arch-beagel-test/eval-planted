@@ -1,5 +1,5 @@
 def total(prices):
-    return sum(prices)
+    return sum(p for p in prices if p > 0)
 
 
 def discount(amount, percent):
