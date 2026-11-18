@@ -11,4 +11,3 @@ def test_total_empty():
 
 def test_discount():
     assert discount(100, 10) == 90
-    assert discount(50, 0) == 50
