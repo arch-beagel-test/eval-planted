@@ -3,4 +3,4 @@ def total(prices):
 
 
 def discount(amount, percent):
-    return amount - amount * percent / 100
+    return amount * (100 - percent) / 100
